@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <style>
+        .centered-text {
+            text-align:
+                center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cent-text">
+        <h1 id="celist"> शिक्षा सारथी</h1>
+        <h5>थमने न दें बढ़ते कदम,<br>
+            Dream achievers कहलाएं हम</h5>
+    </div>
+    <div class="centered-text">
+        <h1>DROPOUT STUDENT SURVEY</h1>
+        <form onsubmit="test(); return false;">
+            <label for="sname" class="c1">Student Name</label>
+            <input type="text" id="sname" placeholder="Student Name" class="c2"><br>
+            <label for="sstate" class="c1">Choose state</label>
+            <select id="sstate" name="state" class="c2"><br>
+                <option value="Ar">Arunachal Pradesh</option>
+                <option value="As">Assam</option>
+                <option value="Ap">Andhra Pradesh</option>
+                <option value="Bh"> Bihar</option>
+                <option value="Ch">Chhatisgarh</option>
+                <option value="Go">Goa</option>
+                <option value="Gj">Gujarat</option>
+                <option value="Hr">Haryana</option>
+                <option value="Hi">Himachal Pradesh</option>
+                <option value="Jh">Jharkhand</option>
+                <option value="Kr">Karnataka</option>
+                <option value="Ke">Kerela</option>
+                <option value="Md">Madhya Pradesh</option>
+                <option value="Mh">Maharashtra</option>
+                <option value="Mn">Manipur</option>
+                <option value="Me">Meghalaya</option>
+                <option value="Mi">Mizoram</option>
+                <option value="Na">Nagaland</option>
+                <option value="Od">Odisha</option>
+                <option value="Pb">Punjab</option>
+                <option value="Rj">Rajasthan</option>
+                <option value="Si">Sikkim</option>
+                <option value="Tn">Tamil Nadu</option>
+                <option value="Tl">Telengana</option>
+                <option value="Tr">Tripura</option>
+                <option value="Ut">Uttrakhand</option>
+                <option value="Up">Uttar Pradesh</option>
+                <option value="Wb">West Bengal</option>
+                <option value="An">Andaman and Nicobar</option>
+                <option value="Cn">Chandigarh</option>
+                <option value="Dn">Dadra and Nagar Haveli</option>
+                <option value="Dd">Daman and Diu</option>
+                <option value="Dl">Delhi</option>
+                <option value="Jk">Jammu and Kashmir</option>
+                <option value="Ld">Ladakh</option>
+                <option value="Lp">Lakshadweep</option>
+                <option value="Pd">Puducherry</option>
+            </select><br>
+            <label for="scaste" class="c1">Caste</label>
+            <input type="text" id="scaste" placeholder="Caste" class="c2"><br>
+            <label for="sgender" class="c1">Gender</label>
+            <input type="text" id="sgender" placeholder="Gender" class="c2"><br>
+            <label for="sAge" class="c1">Age</label>
+            <input type="number" id="sage" placeholder="Age" class="c2"><br>
+            <label for="sclass" class="c1">Class</label>
+            <input type="number" id="sclass" placeholder="Class" class="c2"><br>
+            <label for="sreason" class="c1">Reason</label>
+            <input type="text" id="sreason" placeholder="Reason for dropout" class="c2"><br>
+            <input type="submit" value="Submit" class="can">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

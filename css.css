@@ -1,0 +1,82 @@
+body {
+    background-image: url("desk.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+}
+
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.centered-text {
+    background-color: rgb(240, 228, 228);
+    margin: 28%;
+    opacity: 80%;
+    border-radius: 15px;
+    padding-bottom: 30px;
+}
+
+.celist {
+    font-size: 30px;
+    color: bisque;
+}
+
+h5 {
+    color: bisque;
+}
+
+.cent-text {
+    text-align:
+        center;
+    background-color: brown;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+    resize: vertical;
+}
+
+.can:hover {
+    background-color: rgb(194, 114, 40);
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.c1 {
+    float: left;
+    width: 25%;
+
+}
+
+.c2 {
+    float: left;
+    width: 75%;
+    margin-left: 70px;
+}

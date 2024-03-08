@@ -1,0 +1,44 @@
+h1{
+    font-size:30px;
+    color: rgb(238, 194, 140);
+}
+h5{
+    color:bisque;
+}
+.net{
+    color:rgb(3, 3, 3);
+    background-color: rgb(188, 192, 196);
+    opacity: 80%;
+    margin: 70px;
+    padding:4px;
+}
+#que{
+    color:bisque;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+    background-color: #aa6d04;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#sec{
+    position: absolute;
+}
+#sen{
+    position: relative;
+    left: 92.5%;
+
+}
+#sec:hover{
+    background-color: brown;
+}
+#sen:hover {
+    background-color: brown;
+}
